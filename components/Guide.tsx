@@ -1,0 +1,95 @@
+import Image from 'next/image'
+import React from 'react'
+
+const Guide = () => {
+  return (
+    <section
+    className='bg-light-gray flexCenter flex-col '
+    >
+      <div
+      className=' padding-container 
+      max-container w-full pb-24 
+      '
+      >
+<Image
+src='/logoboat.png'
+alt='camp'
+width={50}
+height={50} 
+/>
+<p
+className='uppercase regular-18 -mt-1 mb-3 bg-light-blue font-extrabold'
+>
+  We are here for you
+</p>
+<div
+className='flex flex-wrap justify-between gap-5 lg:gap-10'
+>
+<h2
+className='bold-40 lg:bold-66 xl:max-w-[390px] textbalck font-bold '
+>Guide You To Easy Path</h2>
+<p
+className='regular-16 textbalck font-light xl:max-w-[520px] bg-light-blue'
+>Only with the hilink application you will no longer get lost and get lost again, because we already support offline maps when there is no internet connection in the field. Invite your friends, relatives and friends to have fun in the wilderness through the valley and reach the top of the mountain</p>
+</div>
+      </div>
+
+
+<div
+className='flexCenter max-container relative w-full'
+>
+<Image
+src='/boat.png'
+alt='boat'
+width={1440}
+height={580}
+className='w-full object-cover object-center 2xl:rounded-5xl'
+/>
+
+<div
+className='absolute flex cl_green py-8 pl-5 pr-7 gap-3 rounded-3xl   md:left[5%] lg:top-20'
+>
+  <Image
+  src='/meter.svg'
+  alt='meter'
+  width={16}
+  height={158}
+  className='h-full w-auto'
+  />
+<div
+className='flexBetween flex-col '
+>
+<div
+className='flex w-full flex-col '
+>
+<div
+className='
+flexBetween w-full  
+'
+>
+<p className='regular-16 text-white'>Destination</p>
+<p className='bold-16 CL_IBLUE '>42 min</p>
+</div>
+<p
+className='bold-20 mt-2  '
+>HeavenLake,Maldives</p>
+</div>
+<div
+className='flex w-full flex-col '
+>
+<p className='regular-16 text-white'>Start track </p>
+<h4
+className='bold-20 mt-2 whitespace-nowrap '
+>HeavenLake,Maldives
+</h4>
+</div>
+</div>
+</div>
+
+</div>
+
+    </section>
+  )
+}
+
+export default Guide
